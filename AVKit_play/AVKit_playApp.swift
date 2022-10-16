@@ -13,7 +13,8 @@ struct AVKit_playApp: App {
         WindowGroup {
             //ContentView()
             //ViewMenu()
-            ViewAVPlayer()
+            //ViewAVPlayer()
+            ViewAVPlayerLocal()
         }
     }
 }
