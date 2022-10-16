@@ -11,7 +11,9 @@ import SwiftUI
 struct AVKit_playApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            //ViewMenu()
+            ViewAVPlayer()
         }
     }
 }

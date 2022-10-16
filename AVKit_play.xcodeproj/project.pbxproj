@@ -11,6 +11,8 @@
 		33531D8928FBFC940085B671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33531D8828FBFC940085B671 /* ContentView.swift */; };
 		33531D8B28FBFC960085B671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33531D8A28FBFC960085B671 /* Assets.xcassets */; };
 		33531D8E28FBFC960085B671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33531D8D28FBFC960085B671 /* Preview Assets.xcassets */; };
+		33531D9528FC003A0085B671 /* ViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33531D9428FC003A0085B671 /* ViewMenu.swift */; };
+		33531D9728FC00910085B671 /* ViewAVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33531D9628FC00910085B671 /* ViewAVPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		33531D8828FBFC940085B671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33531D8A28FBFC960085B671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33531D8D28FBFC960085B671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33531D9428FC003A0085B671 /* ViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenu.swift; sourceTree = "<group>"; };
+		33531D9628FC00910085B671 /* ViewAVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAVPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				33531D8628FBFC940085B671 /* AVKit_playApp.swift */,
 				33531D8828FBFC940085B671 /* ContentView.swift */,
+				33531D9428FC003A0085B671 /* ViewMenu.swift */,
+				33531D9628FC00910085B671 /* ViewAVPlayer.swift */,
 				33531D8A28FBFC960085B671 /* Assets.xcassets */,
 				33531D8C28FBFC960085B671 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33531D9728FC00910085B671 /* ViewAVPlayer.swift in Sources */,
 				33531D8928FBFC940085B671 /* ContentView.swift in Sources */,
+				33531D9528FC003A0085B671 /* ViewMenu.swift in Sources */,
 				33531D8728FBFC940085B671 /* AVKit_playApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
